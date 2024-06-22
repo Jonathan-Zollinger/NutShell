@@ -56,4 +56,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        <marquee>Thanks for filling out the feature request!</marquee>
+        Thanks for filling out the feature request!
