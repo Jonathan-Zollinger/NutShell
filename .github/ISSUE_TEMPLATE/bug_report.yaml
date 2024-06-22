@@ -1,5 +1,5 @@
 name: Bug Report
-description: Use this form to document an issue you've found with this software
+description: I've found a problem with the project.
 labels: [bug]
 body:
   - type: markdown
@@ -54,16 +54,15 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Tell us about the environment where this bug is seen.
-      placeholder: |
+      description: Tell us about the environment where this bug is seen. Include pertinent software and version.
+      value: |
         OS: Windows 11
           Version:      22H2
           OS build:     22621.1992
-          System type:  x64-based processor
-        IDE: Intellij
-          Version: Community Edition 2023.1
-        Java: Azul Zulu
-          Version: 20.0.1
+          arch:         amd x64
+        Browser: Firefox 127.0.1 (64-bit)
+        Last repo commit: 895301f456dfac132c42eacb933e65bf7a192c77
+
       render: shell
     validations:
       required: true
